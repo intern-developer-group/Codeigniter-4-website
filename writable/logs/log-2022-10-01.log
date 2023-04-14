@@ -1,0 +1,62 @@
+ERROR - 2022-10-01 00:00:39 --> mysqli_sql_exception: Unknown column 'ASDfg1234' in 'field list' in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('update register...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('update register...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('update register...')
+#3 C:\xampp\htdocs\KJ\app\Models\Edit_profile_model.php(22): CodeIgniter\Database\BaseConnection->query('update register...')
+#4 C:\xampp\htdocs\KJ\app\Controllers\UserDashboardController.php(59): App\Models\Edit_profile_model->update_data('zinzuvadiyaraj@...', 'ASDfg1234', '1234567890', 'zrsoni1234')
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\UserDashboardController->editProfile()
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 00:00:39 --> Unknown column 'ASDfg1234' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg1234 where email=\'zinzuvadiyaraj@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg1234 where email=\'zinzuvadiyaraj@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg1234 where email=\'zinzuvadiyaraj@gmail.com\'')
+ 4 APPPATH\Models\Edit_profile_model.php(22): CodeIgniter\Database\BaseConnection->query('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg1234 where email=\'zinzuvadiyaraj@gmail.com\'')
+ 5 APPPATH\Controllers\UserDashboardController.php(59): App\Models\Edit_profile_model->update_data('zinzuvadiyaraj@gmail.com', 'ASDfg1234', '1234567890', 'zrsoni1234')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\UserDashboardController->editProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 00:01:40 --> mysqli_sql_exception: Unknown column 'ASDfg12345' in 'field list' in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('update register...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('update register...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('update register...')
+#3 C:\xampp\htdocs\KJ\app\Models\Edit_profile_model.php(22): CodeIgniter\Database\BaseConnection->query('update register...')
+#4 C:\xampp\htdocs\KJ\app\Controllers\UserDashboardController.php(59): App\Models\Edit_profile_model->update_data('zinzuvadiyaraj@...', 'ASDfg12345', '1234567890', 'zrsoni1234')
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\UserDashboardController->editProfile()
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 00:01:40 --> Unknown column 'ASDfg12345' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg12345 where email=\'zinzuvadiyaraj@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg12345 where email=\'zinzuvadiyaraj@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg12345 where email=\'zinzuvadiyaraj@gmail.com\'')
+ 4 APPPATH\Models\Edit_profile_model.php(22): CodeIgniter\Database\BaseConnection->query('update register set Owner_name=\'1234567890\',Shop_name=\'zrsoni1234\', mo=ASDfg12345 where email=\'zinzuvadiyaraj@gmail.com\'')
+ 5 APPPATH\Controllers\UserDashboardController.php(59): App\Models\Edit_profile_model->update_data('zinzuvadiyaraj@gmail.com', 'ASDfg12345', '1234567890', 'zrsoni1234')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\UserDashboardController->editProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 00:09:02 --> Unclosed '{' on line 9
+in APPPATH\Controllers\UserDashboardController.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\UserDashboardController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserDashboardController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserDashboardController')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\UserDashboardController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 00:09:35 --> App\Models\Edit_profile_model::update_data(): Argument #2 ($Shop_name) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\UserDashboardController.php on line 59
+in APPPATH\Models\Edit_profile_model.php on line 19.
+ 1 APPPATH\Controllers\UserDashboardController.php(59): App\Models\Edit_profile_model->update_data('zinzuvadiyaraj@gmail.com', null, '1234567890', 'zrsoni1234')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\UserDashboardController->editProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

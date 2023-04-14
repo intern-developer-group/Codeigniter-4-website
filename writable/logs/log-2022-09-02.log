@@ -1,0 +1,43 @@
+ERROR - 2022-09-02 05:58:59 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'kj' in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'KJ', 3306, '', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\KJ\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\KJ\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\KJ\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\KJ\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\KJ\app\Controllers\Home.php(114): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+#9 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'kj' in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\KJ\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#3 C:\xampp\htdocs\KJ\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\KJ\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\KJ\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\KJ\app\Controllers\Home.php(114): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+#8 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-02 05:58:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'kj'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `register` (`pwd`) VALUES (:pwd:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(114): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

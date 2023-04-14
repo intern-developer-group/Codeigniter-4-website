@@ -1,0 +1,63 @@
+CRITICAL - 2022-08-30 23:11:38 --> Invalid file: register .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register .php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register ', [], true)
+ 3 APPPATH\Controllers\Home.php(69): view('register ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:12:40 --> Invalid file: register .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register .php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register ', [], true)
+ 3 APPPATH\Controllers\Home.php(69): view('register ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:12:46 --> Invalid file: register .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register .php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register ', [], true)
+ 3 APPPATH\Controllers\Home.php(69): view('register ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:13:51 --> Invalid file: register .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register .php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register ', [], true)
+ 3 APPPATH\Controllers\Home.php(69): view('register ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:14:03 --> Invalid file: register .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register .php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register ', [], true)
+ 3 APPPATH\Controllers\Home.php(69): view('register ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:14:11 --> Invalid file: register .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register .php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register ', [], true)
+ 3 APPPATH\Controllers\Home.php(69): view('register ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:14:13 --> Invalid file: register .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register .php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register ', [], true)
+ 3 APPPATH\Controllers\Home.php(69): view('register ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->register_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

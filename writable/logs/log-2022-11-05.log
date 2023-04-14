@@ -1,0 +1,350 @@
+CRITICAL - 2022-11-05 13:15:11 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:15:36 --> Cannot redeclare App\Controllers\add_product_Controller::add_product_from()
+in APPPATH\Controllers\add_product_Controller.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-05 13:16:40 --> Invalid file: add_product_from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_product_from.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('add_product_from', [], true)
+ 3 APPPATH\Controllers\add_product_Controller.php(97): view('add_product_from', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->add_prod_ins()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:27:59 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(108): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:33:30 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(108): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:35:19 --> Class "App\Controllers\Manage_add_product_Model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\add_product_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:35:44 --> Class "App\Models\Manage_add_product_Model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\add_product_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:35:46 --> Class "App\Models\Manage_add_product_Model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\add_product_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:35:46 --> Class "App\Models\Manage_add_product_Model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\add_product_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:35:55 --> Class "App\Models\Manage_add_product_Model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\add_product_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:35:56 --> Class "App\Models\Manage_add_product_Model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\add_product_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:38:15 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(117): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:38:17 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(117): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:38:17 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(117): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:38:17 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(117): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:38:49 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:39:58 --> Undefined variable $userdata1
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata1', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:39:59 --> Undefined variable $userdata1
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata1', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:39:59 --> Undefined variable $userdata1
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata1', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:39:59 --> Undefined variable $userdata1
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata1', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:40:24 --> Undefined variable $userdata1
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata1', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:40:25 --> Undefined variable $userdata1
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata1', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:40:34 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:40:46 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:40:47 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:40:48 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(25): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:42:46 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(26): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:42:47 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(26): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:42:47 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(26): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:42:47 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(26): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:43:03 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(24): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:43:03 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(24): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:43:03 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(24): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:43:20 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(24): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:43:20 --> Undefined variable $userdata
+in APPPATH\Views\Manage_add_product.php on line 59.
+ 1 APPPATH\Views\Manage_add_product.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\Manage_add_product.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(24): view('manage_add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 13:44:20 --> Undefined array key "email"
+in APPPATH\Views\Manage_add_product.php on line 66.
+ 1 APPPATH\Views\Manage_add_product.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'APPPATH\\Views\\Manage_add_product.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Manage_add_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('manage_add_product', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(24): view('manage_add_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->Manage_Products()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

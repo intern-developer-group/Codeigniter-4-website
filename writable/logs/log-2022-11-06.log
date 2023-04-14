@@ -1,0 +1,952 @@
+CRITICAL - 2022-11-06 00:22:46 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\add_product_Controller.php on line 131.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\add_product_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\add_product_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\add_product_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\add_product_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 00:22:47 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\add_product_Controller.php on line 131.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\add_product_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\add_product_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\add_product_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\add_product_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:28:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where productpic=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where productpic=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where productpic=')
+ 4 APPPATH\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add_product where productpic=')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:28:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:28:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where productpic=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where productpic=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where productpic=')
+ 4 APPPATH\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add_product where productpic=')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:28:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:28:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where productpic=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where productpic=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where productpic=')
+ 4 APPPATH\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add_product where productpic=')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:28:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:28:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where productpic=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where productpic=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where productpic=')
+ 4 APPPATH\Controllers\add_product_Controller.php(127): CodeIgniter\Database\BaseConnection->query('delete from add_product where productpic=')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:28:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:28:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where `productpic`=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where `productpic`=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where `productpic`=')
+ 4 APPPATH\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add_product where `productpic`=')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:29:08 --> mysqli_sql_exception: Unknown column '1667710908_ca337a7503512d340edb.jpg' in 'where clause' in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:29:08 --> Unknown column '1667710908_ca337a7503512d340edb.jpg' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 4 APPPATH\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:29:14 --> mysqli_sql_exception: Unknown column '1667710908_ca337a7503512d340edb.jpg' in 'where clause' in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:29:14 --> Unknown column '1667710908_ca337a7503512d340edb.jpg' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 4 APPPATH\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-06 00:29:14 --> mysqli_sql_exception: Unknown column '1667710908_ca337a7503512d340edb.jpg' in 'where clause' in C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\KJ\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from add...', 0)
+#1 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add...')
+#2 C:\xampp\htdocs\KJ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add...')
+#3 C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add...')
+#4 C:\xampp\htdocs\KJ\system\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+#5 C:\xampp\htdocs\KJ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+#6 C:\xampp\htdocs\KJ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\KJ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-06 00:29:14 --> Unknown column '1667710908_ca337a7503512d340edb.jpg' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 4 APPPATH\Controllers\add_product_Controller.php(126): CodeIgniter\Database\BaseConnection->query('delete from add_product where `productpic`=1667710908_ca337a7503512d340edb.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->prod_delete()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:08:15 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 162.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:18 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:19 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:19 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:19 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:19 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:20 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:20 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:45 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:12:46 --> Class "App\Controllers\Edit_profile_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:14:06 --> Class "App\Models\Edit_product_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:15:26 --> Class "App\Models\Edit_product_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:15:27 --> Class "App\Models\Edit_product_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:15:27 --> Class "App\Models\Edit_product_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:15:27 --> Class "App\Models\Edit_product_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:15:28 --> Class "App\Models\Edit_product_model" not found
+in APPPATH\Controllers\add_product_Controller.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:15:57 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:15:59 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:46 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:47 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:48 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:48 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:48 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:49 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:49 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:49 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:50 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:17:50 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:18:00 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:18:09 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:53:14 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:54:10 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:54:14 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:54:17 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 01:54:18 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:01:52 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:06:59 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:08:48 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:12:20 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:10 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type int, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:11 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type int, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:11 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type int, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:11 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type int, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:34 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:34 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:35 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:35 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:35 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:35 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:35 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:13:35 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:14:57 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:14:57 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:14:58 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:14:58 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:14:59 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:14:59 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:14:59 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:15:00 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:15:00 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:15:01 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:15:01 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:15:01 --> App\Models\Edit_product_model::fetch_data(): Argument #1 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 165
+in APPPATH\Models\Edit_product_model.php on line 9.
+ 1 APPPATH\Controllers\add_product_Controller.php(165): App\Models\Edit_product_model->fetch_data(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:17:10 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:19:18 --> Undefined variable $p_id
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_id', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:19:55 --> Undefined variable $productpic
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productpic', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:20:26 --> Undefined variable $p_id
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_id', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:20:28 --> Undefined variable $p_id
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_id', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:20:40 --> Undefined variable $p_id
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_id', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:24:59 --> Undefined variable $productpic
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productpic', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:24:59 --> Undefined variable $productpic
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productpic', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:25:00 --> Undefined variable $productpic
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productpic', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:25:01 --> Undefined variable $productpic
+in APPPATH\Models\Edit_product_model.php on line 22.
+ 1 APPPATH\Models\Edit_product_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productpic', 'APPPATH\\Models\\Edit_product_model.php', 22)
+ 2 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:26:18 --> Too few arguments to function App\Models\Edit_product_model::update_data(), 2 passed in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 200 and exactly 3 expected
+in APPPATH\Models\Edit_product_model.php on line 19.
+ 1 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:26:50 --> Undefined variable $p_id
+in APPPATH\Controllers\add_product_Controller.php on line 200.
+ 1 APPPATH\Controllers\add_product_Controller.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_id', 'APPPATH\\Controllers\\add_product_Controller.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:27:04 --> Too few arguments to function App\Models\Edit_product_model::update_data(), 2 passed in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 200 and exactly 3 expected
+in APPPATH\Models\Edit_product_model.php on line 19.
+ 1 APPPATH\Controllers\add_product_Controller.php(200): App\Models\Edit_product_model->update_data('1222', '1222')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:27:47 --> Undefined variable $p_id
+in APPPATH\Controllers\add_product_Controller.php on line 200.
+ 1 APPPATH\Controllers\add_product_Controller.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_id', 'APPPATH\\Controllers\\add_product_Controller.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:29:55 --> App\Models\Edit_product_model::update_data(): Argument #3 ($productpic) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 202
+in APPPATH\Models\Edit_product_model.php on line 19.
+ 1 APPPATH\Controllers\add_product_Controller.php(202): App\Models\Edit_product_model->update_data('1222', '1222', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:31:03 --> Undefined variable $p_id
+in APPPATH\Controllers\add_product_Controller.php on line 200.
+ 1 APPPATH\Controllers\add_product_Controller.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_id', 'APPPATH\\Controllers\\add_product_Controller.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:32:00 --> App\Models\Edit_product_model::update_data(): Argument #3 ($p_id) must be of type string, null given, called in C:\xampp\htdocs\KJ\app\Controllers\add_product_Controller.php on line 202
+in APPPATH\Models\Edit_product_model.php on line 19.
+ 1 APPPATH\Controllers\add_product_Controller.php(202): App\Models\Edit_product_model->update_data('1222', '1222', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:43:22 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:43:55 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:43:58 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:48:27 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:48:54 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:48:55 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:48:55 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:02 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:10 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:11 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:11 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:12 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:13 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:13 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:49:13 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:50:39 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:51:01 --> Attempt to read property "whight" on null
+in APPPATH\Views\edit_product_form.php on line 53.
+ 1 APPPATH\Views\edit_product_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whight" on null', 'APPPATH\\Views\\edit_product_form.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:51:26 --> Attempt to read property "netwhight" on null
+in APPPATH\Views\edit_product_form.php on line 67.
+ 1 APPPATH\Views\edit_product_form.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "netwhight" on null', 'APPPATH\\Views\\edit_product_form.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(167): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->edit_product()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 02:56:16 --> Undefined variable $userdata
+in APPPATH\Views\edit_product_form.php on line 2.
+ 1 APPPATH\Views\edit_product_form.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'APPPATH\\Views\\edit_product_form.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_product_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('edit_product_form', [], true)
+ 5 APPPATH\Controllers\add_product_Controller.php(213): view('edit_product_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\add_product_Controller->editProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_product_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

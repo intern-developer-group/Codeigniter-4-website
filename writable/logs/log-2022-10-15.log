@@ -1,0 +1,6 @@
+CRITICAL - 2022-10-15 06:36:12 --> Undefined constant "App\Controllers\hello"
+in APPPATH\Controllers\UserController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\UserController->AdminDeleteUser()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
